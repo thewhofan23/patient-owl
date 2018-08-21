@@ -79,7 +79,6 @@ def autorunGWC(gw_id, USER_PASSWORD):
     email.send_keys(USER_EMAIL)
     browser.find_element(By.CLASS_NAME, "Button--block").click()
     
-    # TODO: Figure out how to not manual advance to next step in password entry. Getting blocked with dev notes from John
     # Password Page
 
     browser.find_element(By.ID, "identifierNext").click()
